@@ -19,7 +19,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
         private int horizontalPlanes = 0;
         private int verticalPlanes = 0;
 
-        private JuegoUIManager juegoUIManager;
+        private UIManager juegoUIManager;
 
         protected override void Awake()
         {
@@ -33,7 +33,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
             }
 
             // Encontrar el script JuegoUIManager
-            juegoUIManager = FindObjectOfType<JuegoUIManager>();
+            juegoUIManager = FindObjectOfType<UIManager>();
 
             m_PlaneManager.planesChanged += OnPlanesChanged;
         }

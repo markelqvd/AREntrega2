@@ -11,12 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Markel Quevedo/Scenes/Game.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
-    path: Assets/IkerDuque/Scene/MenuPrincipal.unity
-    guid: c2876fe7008b58445a92bd73d2e122ca
-  - enabled: 1
-    path: Assets/IkerDuque/Scene/NivelPrincipal.unity
-    guid: b75e43b4aa1f62b469ea4fb6cf2f0d85
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: d1c114e6f2ce6e949bc33d93ca297c4c, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: d5fea458e6657044ca718785260b499d, type: 2}
